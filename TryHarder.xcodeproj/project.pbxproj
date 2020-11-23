@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651D46612531F47A003719ED /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651D46602531F47A003719ED /* PostDetailsViewController.swift */; };
+		651E1B192535945B00D8E295 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 651E1B182535945B00D8E295 /* IQKeyboardManagerSwift */; };
+		655531882530783000369775 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655531872530783000369775 /* AddPostViewController.swift */; };
+		6571A9D725305DB10024D66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571A9D625305DB10024D66A /* AppDelegate.swift */; };
+		6571A9D925305DB10024D66A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571A9D825305DB10024D66A /* SceneDelegate.swift */; };
+		6571A9DB25305DB10024D66A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571A9DA25305DB10024D66A /* ViewController.swift */; };
+		6571A9DE25305DB10024D66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6571A9DC25305DB10024D66A /* Main.storyboard */; };
+		6571A9E025305DB60024D66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6571A9DF25305DB60024D66A /* Assets.xcassets */; };
+		6571A9E325305DB60024D66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6571A9E125305DB60024D66A /* LaunchScreen.storyboard */; };
+		6571A9EC25305DC30024D66A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571A9EB25305DC30024D66A /* MessageModel.swift */; };
+		6571A9F3253061500024D66A /* MessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571A9F1253061500024D66A /* MessageViewCell.swift */; };
+		6571A9F4253061500024D66A /* MessageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6571A9F2253061500024D66A /* MessageViewCell.xib */; };
+		6571AA0225306E950024D66A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6571AA0125306E950024D66A /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6571A9FF25306A280024D66A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		651D46602531F47A003719ED /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		655531872530783000369775 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		6571A9D325305DB10024D66A /* TryHarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryHarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6571A9D625305DB10024D66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6571A9D825305DB10024D66A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6571A9DA25305DB10024D66A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6571A9DD25305DB10024D66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6571A9DF25305DB60024D66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6571A9E225305DB60024D66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6571A9E425305DB60024D66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6571A9EB25305DC30024D66A /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		6571A9F1253061500024D66A /* MessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
+		6571A9F2253061500024D66A /* MessageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6571A9D025305DB10024D66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6571AA0225306E950024D66A /* Kingfisher in Frameworks */,
+				651E1B192535945B00D8E295 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6571A9CA25305DB10024D66A = {
+			isa = PBXGroup;
+			children = (
+				6571A9D525305DB10024D66A /* TryHarder */,
+				6571A9D425305DB10024D66A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6571A9D425305DB10024D66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6571A9D325305DB10024D66A /* TryHarder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6571A9D525305DB10024D66A /* TryHarder */ = {
+			isa = PBXGroup;
+			children = (
+				6571A9D625305DB10024D66A /* AppDelegate.swift */,
+				6571A9D825305DB10024D66A /* SceneDelegate.swift */,
+				6571A9DA25305DB10024D66A /* ViewController.swift */,
+				6571A9EB25305DC30024D66A /* MessageModel.swift */,
+				6571A9DC25305DB10024D66A /* Main.storyboard */,
+				6571A9DF25305DB60024D66A /* Assets.xcassets */,
+				6571A9E125305DB60024D66A /* LaunchScreen.storyboard */,
+				6571A9E425305DB60024D66A /* Info.plist */,
+				6571A9F1253061500024D66A /* MessageViewCell.swift */,
+				6571A9F2253061500024D66A /* MessageViewCell.xib */,
+				655531872530783000369775 /* AddPostViewController.swift */,
+				651D46602531F47A003719ED /* PostDetailsViewController.swift */,
+			);
+			path = TryHarder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6571A9D225305DB10024D66A /* TryHarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6571A9E725305DB60024D66A /* Build configuration list for PBXNativeTarget "TryHarder" */;
+			buildPhases = (
+				6571A9CF25305DB10024D66A /* Sources */,
+				6571A9D025305DB10024D66A /* Frameworks */,
+				6571A9D125305DB10024D66A /* Resources */,
+				6571A9FF25306A280024D66A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryHarder;
+			packageProductDependencies = (
+				6571AA0125306E950024D66A /* Kingfisher */,
+				651E1B182535945B00D8E295 /* IQKeyboardManagerSwift */,
+			);
+			productName = TryHarder;
+			productReference = 6571A9D325305DB10024D66A /* TryHarder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6571A9CB25305DB10024D66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6571A9D225305DB10024D66A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 6571A9CE25305DB10024D66A /* Build configuration list for PBXProject "TryHarder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6571A9CA25305DB10024D66A;
+			packageReferences = (
+				6571AA0025306E950024D66A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				651E1B172535945B00D8E295 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 6571A9D425305DB10024D66A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6571A9D225305DB10024D66A /* TryHarder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6571A9D125305DB10024D66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6571A9F4253061500024D66A /* MessageViewCell.xib in Resources */,
+				6571A9E325305DB60024D66A /* LaunchScreen.storyboard in Resources */,
+				6571A9E025305DB60024D66A /* Assets.xcassets in Resources */,
+				6571A9DE25305DB10024D66A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6571A9CF25305DB10024D66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6571A9F3253061500024D66A /* MessageViewCell.swift in Sources */,
+				6571A9DB25305DB10024D66A /* ViewController.swift in Sources */,
+				651D46612531F47A003719ED /* PostDetailsViewController.swift in Sources */,
+				6571A9D725305DB10024D66A /* AppDelegate.swift in Sources */,
+				6571A9D925305DB10024D66A /* SceneDelegate.swift in Sources */,
+				655531882530783000369775 /* AddPostViewController.swift in Sources */,
+				6571A9EC25305DC30024D66A /* MessageModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6571A9DC25305DB10024D66A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6571A9DD25305DB10024D66A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6571A9E125305DB60024D66A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6571A9E225305DB60024D66A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6571A9E525305DB60024D66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6571A9E625305DB60024D66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6571A9E825305DB60024D66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KTA9TTV92;
+				INFOPLIST_FILE = TryHarder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Traidev.TryHarder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6571A9E925305DB60024D66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KTA9TTV92;
+				INFOPLIST_FILE = TryHarder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Traidev.TryHarder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6571A9CE25305DB10024D66A /* Build configuration list for PBXProject "TryHarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6571A9E525305DB60024D66A /* Debug */,
+				6571A9E625305DB60024D66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6571A9E725305DB60024D66A /* Build configuration list for PBXNativeTarget "TryHarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6571A9E825305DB60024D66A /* Debug */,
+				6571A9E925305DB60024D66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		651E1B172535945B00D8E295 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+		6571AA0025306E950024D66A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		651E1B182535945B00D8E295 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 651E1B172535945B00D8E295 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		6571AA0125306E950024D66A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6571AA0025306E950024D66A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6571A9CB25305DB10024D66A /* Project object */;
+}
